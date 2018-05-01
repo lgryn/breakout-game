@@ -1,1 +1,1 @@
-export default () => <div>Breakout game</div>
+export default () => <div>Breakout game</div>;
