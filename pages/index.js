@@ -1,18 +1,18 @@
 import { Component } from 'react';
 import Layout from '../components/layout';
-import Game from '../lib/Game';
+import Game from '../lib/game';
 
 class Index extends Component {
   componentDidMount = () => {
     const game = new Game('breakout', 480, 320);
 
-    function main() {
-      window.requestAnimationFrame(main);
+    function mainLoop() {
+      window.requestAnimationFrame(mainLoop);
 
       game.render('game-wrapper');
     }
 
-    main();
+    mainLoop();
   }
 
   render() {
