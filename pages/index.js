@@ -10,6 +10,7 @@ class Index extends Component {
       window.requestAnimationFrame(mainLoop);
 
       game.render('game-wrapper');
+      game.update();
     }
 
     mainLoop();
