@@ -5,7 +5,7 @@ import Game from '../lib/game';
 class Index extends Component {
   componentDidMount = () => {
     const game = new Game('breakout', 480, 320);
-
+    game.init();
     function mainLoop() {
       window.requestAnimationFrame(mainLoop);
 
