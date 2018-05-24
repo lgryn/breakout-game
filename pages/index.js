@@ -7,7 +7,7 @@ class Index extends Component {
     const game = new Game('breakout', 480, 320);
     game.init();
     function mainLoop() {
-      window.requestAnimationFrame(mainLoop);
+      game.loop = window.requestAnimationFrame(mainLoop);
 
       game.render('game-wrapper');
       game.update();
