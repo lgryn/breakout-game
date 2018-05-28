@@ -15,7 +15,7 @@ class Nav extends Component {
         <div className="container">
           <div className="navbar-brand">
             <a className="navbar-item" href="https://github.com/lgryn/breakout-game">
-              <img src="/static/logo.png" alt="Logo" />
+              <img src="./static/logo.png" alt="Logo" />
             </a>
             <span
               className="navbar-burger burger"

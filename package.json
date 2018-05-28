@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "next",
-    "lint": "eslint pages components"
+    "lint": "eslint pages components",
+    "build": "next build && next export"
   },
   "dependencies": {
     "next": "^6.0.0",
